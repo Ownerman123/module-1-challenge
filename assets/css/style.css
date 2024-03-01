@@ -1,55 +1,72 @@
+
+/*styles all elements*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*styles body*/
+
 body {
     background-color: #d9dcd6;
 }
 
+/*colors and pads the header*/
 .header {
-    padding: 20px;
+    padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/*pads the left sided and displays content in line the h1 elements in the header*/
 .header h1 {
     display: inline-block;
+    left: 5px;
     font-size: 48px;
 }
 
+/*colors the seo text in the header*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
-    padding-top: 15px;
+/* pads and styles fonts for the links in the header*/
+.header nav {
+    padding-top: 25px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header div ul {
+/* removes list bullets in header*/
+.header nav ul {
     list-style-type: none;
+   
 }
 
-.header div ul li {
+/*makes list items in header display in line*/
+.header nav ul li {
     display: inline-block;
+     
     margin-left: 25px;
 }
 
+/* colors all anchor tags text to white*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*sets paragraph font size*/
 p {
     font-size: 16px;
 }
 
+/*styles and displays cover image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +76,26 @@ p {
     background-position: center;
 }
 
+/*applies float left to elements*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* applies float right to elements*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* styles the size of the content boxes */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styles the content of the aside box */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +107,64 @@ p {
     background-color: #2589bd;
 }
 
+/*styles the container for the Lead generation*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*styles the container for the brand awareness*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*styles the container for Cost managment*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*styles the Heading within the container for lead*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*styles the Heading within the container for Brand*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*styles the Heading within the container for Cost*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*styles and sizes the image for lead*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*styles and sizes the image for Brand*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*styles and sizes the image for Cost*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Styles the container for the first section*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +174,7 @@ p {
     color: #ffffff;
 }
 
+/*Styles the container for the second section*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +184,7 @@ p {
     color: #ffffff;
 }
 
+/*Styles the container for the third section*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +194,40 @@ p {
     color: #ffffff;
 }
 
+/*sets the size of the image in the first section*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*sets the size of the image in the second section*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*sets the size of the image in the third section*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*sets margin and font size for the heading in the first section*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*sets margin and font size for the heading in the second section*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*sets margin and font size for the heading in the third section*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*styles the footer*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +235,7 @@ p {
     text-align: center;
 }
 
+/*styles the h2 tags in the footer*/
 .footer h2 {
     font-size: 20px;
 }
