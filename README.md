@@ -11,6 +11,11 @@ could more easily read the page
 This is a practice document for educational purposes.
 
 
+## Links
+
+### Deployed Document
+https://ownerman123.github.io/module-1-challenge/
+
 ## Credits
 
 N/A
